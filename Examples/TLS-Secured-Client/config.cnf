@@ -1,0 +1,14 @@
+[ req ]
+prompt = no
+default_bits = 2048
+encrypt_key = no
+distinguished_name = req_distinguished_name
+string_mask = utf8only
+
+[ req_distinguished_name ]
+C=CA
+ST=Saskatchewan
+L=Regina
+O=Vivvo Application Studios
+CN=localhost.vivvocloud.com
+emailAddress=jamie@vivvo.com
