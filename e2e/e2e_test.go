@@ -3,9 +3,9 @@ package e2e
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"github.com/Vivvo/go-sdk/mtls"
-	"github.com/Vivvo/vivvo-ca/certificate"
-	"github.com/Vivvo/vivvo-ca/server"
+	"github.com/jjamieson1/go-ca/mtls-client"
+	"github.com/jjamieson1/go-ca/certificate"
+	"github.com/jjamieson1/go-ca/server"
 	"gopkg.in/resty.v1"
 	"github.com/gorilla/mux"
 	"log"
